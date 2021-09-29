@@ -6,10 +6,6 @@ public class AddPlayersCommand extends CommandExecutor {
     String commandName = "add";
     Integer paramsRequired = 4;
 
-    public  AddPlayersCommand() {
-        super();
-    }
-
     @Override
     protected void execute(Command command) {
         System.out.println("Adding players command");
